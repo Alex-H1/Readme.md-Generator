@@ -1,11 +1,23 @@
-{
-	"Title": "title ",
-	"Description": "short description",
-	"Installation": "isntallation",
-	"Usage": "information",
-	"Contribution": "contribution",
-	"test": "test",
-	"License": "GPL 3.0",
-	"userName": "alec",
-	"email": "emai'"
-}
+# title
+
+## License
+BSD 3
+
+## Description 
+title
+
+## Usage 
+tyle
+
+## Contribution
+tle
+
+## Installation
+title
+
+## Test Instructions
+tle
+
+## GitHub and Email adress
+  
+[]()
