@@ -10,3 +10,6 @@ This is my good README.md generator this takes in user imput and styles them in 
 
  ## Usage
  ![usage guide](./utils/Untitled_%20Apr%2021%2C%202022%208_29%20PM.gif)
+
+ ## License 
+ License under[ MIT License](license)
