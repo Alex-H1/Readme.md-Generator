@@ -1,16 +1,3 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {
- 
-}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -18,13 +5,15 @@ function generateMarkdown(data) {
   ## Description 
   ${data.description}
   
+  [![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-yellow.svg)](https://opensource.org/licenses/${data.license})
+
 ## table of contents
-1.[license](#License)
-2.[usage](#Usage)
-3.[contribution](#Contribution)
-4.[installation](#Installation)
-5.[test](#Test Instructions)
-6.[userName](#GitHub and Email Address)
+*[license](#License)
+*[usage](#Usage)
+*[contribution](#Contribution)
+*[installation](#Installation)
+*[test](#Test)
+*[userName](#GitHub)
 
 ## License
 ${data.license}
@@ -38,13 +27,13 @@ ${data.contribution}
 ## Installation
 ${data.installation}
 
-## Test Instructions
+## Test-Instructions
 ${data.test}
 
-## GitHub and Email Address
+## GitHub-and-Email-Address
 ${data.userName}  
-[${data.email}](${data.email})
+${data.email}
 `;
 }
 
-module.exports = generateMarkdown, renderLicenseLink, renderLicenseSection, renderLicenseBadge;
+module.exports = generateMarkdown;
